@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'idroid';
+  src: url('fontes/idroid.otf');
+  font-size: 400px;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4cfd5b88;
+}
+
+header {
+  background-color: #7fff44; 
+  background: linear-gradient(to bottom, #4cfd81, #11381c);
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  box-shadow: 1px 1px 6px 2px #0000006b;
+}
+
+p#subtitle {
+   margin: 16px 30px;
+   text-align: center;
+   text-indent: 0px;
+   text-shadow: 3px 3px 6px #0000006b;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+header > nav {
+    text-align: left;
+}
+
+header > h1 {
+  letter-spacing: -0.05em;
+  text-shadow: 3px 3px 6px #0000006b;
+}
+
+nav > a {
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+main {
+    margin: 0px auto 15px auto;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 1px 1px 6px 2px #0000006b;
+
+    max-width: 800px;
+    min-width: 500px;
+}
+
+h1#historia {
+  margin-top: 0px;
+}
+
+section > h1, h2 {
+    font-family: 'idroid', sans-serif;
+    color: #1c5e2f;
+}
+
+section > h2 {
+  background: linear-gradient(to right, rgba(36, 247, 36, 0.247), rgba(36, 247, 36, 0));
+}
+
+img, iframe {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: "✔";
+  display: inline-block;
+  margin: auto;
+}
+
+aside {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #a8f8c0;
+  margin: 5px 0px;
+  box-shadow: 1px 1px 6px 2px #0000006b;
+}
+
+aside > h1 {
+  text-align: left;
+  font-size: medium;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  background-color: #2e974c;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+aside > article {
+  padding: 5px;
+}
+
+p#margin_aside {
+  margin-top: 0px;
+}
+
+article > ul {
+  text-align: left;
+}
+
+main > p {
+  margin: 0px;
+  padding: 25px;
+}
+
+main > section, aside {
+  padding: 25px;
+}
+
+main > aside {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1c5e2f;
+  padding: 5px;
+  color: white;
+}
+
+span, a {
+  color: #276621;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer > a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section#section_video {
+  background-color: #11381c;
+}
